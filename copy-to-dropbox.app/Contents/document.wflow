@@ -142,13 +142,13 @@
 				<key>Class Name</key>
 				<string>Find_Finder_Items_2</string>
 				<key>InputUUID</key>
-				<string>30BCB8A2-F2FB-4807-AD4C-CF342C36A27E</string>
+				<string>E9FE72BC-B47A-415F-A1DE-D1468BB44120</string>
 				<key>Keywords</key>
 				<array/>
 				<key>OutputUUID</key>
-				<string>0294A3A6-755F-47ED-9D89-158AD1D9E926</string>
+				<string>37DE731C-AD97-4AAB-9F7B-1433D46664F4</string>
 				<key>UUID</key>
-				<string>33595B45-C440-43C0-9C8C-15BFBDD3176B</string>
+				<string>205BECBF-CB31-4874-A5A1-84F39E2F3F24</string>
 				<key>UnlocalizedApplications</key>
 				<array>
 					<string>Finder</string>
@@ -199,7 +199,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:209.000000</string>
+				<string>521.500000:457.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Find Finder Items 2.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -260,13 +260,13 @@
 				<key>Class Name</key>
 				<string>AMGetSelectedFinderItemsAction</string>
 				<key>InputUUID</key>
-				<string>17BF6A5C-7D49-4455-BAF5-2FF7F4AE5B3A</string>
+				<string>DF2DE33A-2629-4DB7-BFE4-18BAA2551051</string>
 				<key>Keywords</key>
 				<array/>
 				<key>OutputUUID</key>
-				<string>E0F3FADE-9598-4E60-90E8-4A3B4A710935</string>
+				<string>119C061B-D8C9-451C-9D41-A9A7B17FA3E5</string>
 				<key>UUID</key>
-				<string>2E42C7F1-F914-4517-9FAF-99647E0103FD</string>
+				<string>50D5508B-13B9-4B72-B1DB-B4DB8FBAE25E</string>
 				<key>UnlocalizedApplications</key>
 				<array>
 					<string>Finder</string>
@@ -290,7 +290,7 @@
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>1.1.2</string>
+				<string>2.0.1</string>
 				<key>AMApplication</key>
 				<array>
 					<string>Finder</string>
@@ -317,9 +317,9 @@
 					</array>
 				</dict>
 				<key>ActionBundlePath</key>
-				<string>/System/Library/Automator/Move Finder Items.action</string>
+				<string>/System/Library/Automator/Copy Finder Items.action</string>
 				<key>ActionName</key>
-				<string>Move Finder Items</string>
+				<string>Copy Finder Items</string>
 				<key>ActionParameters</key>
 				<dict>
 					<key>replaceExisting</key>
@@ -328,9 +328,9 @@
 					<string>~/Downloads/TestingDownloads</string>
 				</dict>
 				<key>BundleIdentifier</key>
-				<string>com.apple.Automator.MoveFiles</string>
+				<string>com.apple.Automator.CopyFiles</string>
 				<key>CFBundleVersion</key>
-				<string>1.1.2</string>
+				<string>2.0.1</string>
 				<key>CanShowSelectedItemsWhenRun</key>
 				<true/>
 				<key>CanShowWhenRun</key>
@@ -340,18 +340,18 @@
 					<string>AMCategoryFilesAndFolders</string>
 				</array>
 				<key>Class Name</key>
-				<string>MoveFilesAction</string>
+				<string>AMCopyFilesAction</string>
 				<key>InputUUID</key>
-				<string>A93ADAFA-EDAF-49ED-A44B-8B419A77D472</string>
+				<string>AABE4C36-A8B4-4499-ADB3-0D17EDEF32D2</string>
 				<key>Keywords</key>
 				<array>
 					<string>File</string>
-					<string>Move</string>
+					<string>Copy</string>
 				</array>
 				<key>OutputUUID</key>
-				<string>C7B24889-2776-4A8E-8584-FAECD0BF7A03</string>
+				<string>EA6DC599-B993-4CF1-AA18-2F00A5760330</string>
 				<key>UUID</key>
-				<string>147C2FF5-C5D7-4418-9222-F23FDA266394</string>
+				<string>FDD96967-5618-42A3-8CAD-27ED87695EA8</string>
 				<key>UnlocalizedApplications</key>
 				<array>
 					<string>Finder</string>
@@ -388,9 +388,9 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:376.000000</string>
+				<string>521.500000:984.000000</string>
 				<key>nibPath</key>
-				<string>/System/Library/Automator/Move Finder Items.action/Contents/Resources/Base.lproj/main.nib</string>
+				<string>/System/Library/Automator/Copy Finder Items.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
@@ -398,25 +398,25 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>2E81012D-794E-4752-AF2A-95BC4F87C4DB</key>
+		<key>1DEF023E-5C8B-4425-8737-0A696095960E</key>
 		<dict>
 			<key>from</key>
-			<string>2E42C7F1-F914-4517-9FAF-99647E0103FD - 2E42C7F1-F914-4517-9FAF-99647E0103FD</string>
+			<string>205BECBF-CB31-4874-A5A1-84F39E2F3F24 - 205BECBF-CB31-4874-A5A1-84F39E2F3F24</string>
 			<key>to</key>
-			<string>147C2FF5-C5D7-4418-9222-F23FDA266394 - 147C2FF5-C5D7-4418-9222-F23FDA266394</string>
+			<string>50D5508B-13B9-4B72-B1DB-B4DB8FBAE25E - 50D5508B-13B9-4B72-B1DB-B4DB8FBAE25E</string>
 		</dict>
-		<key>E4B903BB-CAFE-4FCC-959C-FF613990EF70</key>
+		<key>E802E933-5F45-4232-84D1-CEAD390932AA</key>
 		<dict>
 			<key>from</key>
-			<string>33595B45-C440-43C0-9C8C-15BFBDD3176B - 33595B45-C440-43C0-9C8C-15BFBDD3176B</string>
+			<string>50D5508B-13B9-4B72-B1DB-B4DB8FBAE25E - 50D5508B-13B9-4B72-B1DB-B4DB8FBAE25E</string>
 			<key>to</key>
-			<string>2E42C7F1-F914-4517-9FAF-99647E0103FD - 2E42C7F1-F914-4517-9FAF-99647E0103FD</string>
+			<string>FDD96967-5618-42A3-8CAD-27ED87695EA8 - FDD96967-5618-42A3-8CAD-27ED87695EA8</string>
 		</dict>
 	</dict>
 	<key>workflowMetaData</key>
 	<dict>
 		<key>workflowTypeIdentifier</key>
-		<string>com.apple.Automator.workflow</string>
+		<string>com.apple.Automator.iCalAlarm</string>
 	</dict>
 </dict>
 </plist>
